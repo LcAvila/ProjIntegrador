@@ -20,43 +20,6 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="container-fluid">
-            <div class="logo p-2 m-4 ms-5 me-5">
-              <img src="./img/Compre bem.png" alt="logo">
-            </div>
-            <div class="input-group ms-2">
-              <input type="text" class="form-control" placeholder="Pesquisar" aria-label="Username"
-                aria-describedby="basic-addon1">
-              <button class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
-            <ul class="navbar-nav mb-lg-0">
-              <li class="nav-item">
-                <button type="button" class="btn btn-link"><a href="./index.jsp">Home</a></button>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-link"><a href="#">Sobre</a></button>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-link"><a href="#produtos">Produtos</a></button>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-link"><a href="#">Localização</a></button>
-              </li>
-            </ul>
-           
-            <div class="keep-products">
-              <i class="fa-regular fa-heart p-2 m-1"></i>
-              <i class="fa-solid fa-bag-shopping p-2 m-1"></i>
-            </div>
-          </div>
-        </nav>
-      </header>
 
     <div class="container" id="container">
         <div class="form-container sign-up">
@@ -94,7 +57,7 @@
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Bem Vindo de Volta!</h1>
+                    <h1>Já tem uma conta ?</h1>
                     <p>Entre para aproveitar todos os recursos do site</p>
                     <button class="hidden" id="login">Entrar</button>
                 </div>
